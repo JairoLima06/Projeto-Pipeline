@@ -32,3 +32,7 @@ df.to_sql(
     if_exists="replace",
     index=False
 )
+
+
+#Exportar a tabela tratada
+df.to_csv("vendas_tratadas.csv", index=False)
