@@ -62,17 +62,11 @@ pipeline-vendas/
 └── requirements.txt
 ```
 # Fluxo do Pipeline
-```bash
-Fonte de Dados (CSV)
-        ↓
-Extração com Python
-        ↓
-Limpeza e Tratamento dos Dados
-        ↓
-Armazenamento no MySQL
-        ↓
-Análise e Dashboard no Power BI
-```
+
+<p align="center">
+  <img src="https://github.com/JairoLima06/Projeto-Pipeline/blob/main/image/Fluxo%20do%20Pipeline.png" alt="Descrição da imagem">
+</p>
+
 
 # Extração dos Dados
 
@@ -123,6 +117,13 @@ vendas
 # Dashboard Power BI
 
 O dashboard desenvolvido no Power BI apresenta indicadores importantes para análise de negócio.
+<p align="center">
+  <img src="https://github.com/JairoLima06/Projeto-Pipeline/blob/main/image/Dash_Vendas.PNG" alt="Descrição da imagem">
+</p>
+
+# [Confira aqui o dashboard do projeto.](https://app.powerbi.com/groups/me/reports/3bfa1bfd-c0e8-48bd-871d-d0693a7d178a/19d8cd2eee92434de4eb?language=pt-BR&experience=power-bi)
+
+
 KPIs criados:
 ```bash
 Faturamento Total;
